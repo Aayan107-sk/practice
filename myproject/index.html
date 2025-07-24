@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>protflio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+       <script>
+        tailwind.config ={
+            theme: {
+                extend: {
+                    colors: {
+                         primary: '#1a1a1a',
+                         accent: '#d4af37',
+                         muted: '#6b7280'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>  
+         @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-20px); } }
+         .float { animation: float 6s ease-in-out infinite;}
+         .gradient-text { background: linear-gradient(45deg, #a855f7, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+         .card-hover:hover { transform: translateY(-10px); box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); }
+         .btn-glow:hover { box-shadow: 0 0 30px rgba(168, 85, 247, 0.5); }
+         .smooth-scroll { scroll-behavior: smooth; }
+
+   ></style>
+
+</head>
+<body class="bg-white font-sans">
+    <!-- navigaction -->
+     <nav class="bg-white shadow-lg sticky top-0 z-50 bg_grey-900 bg-opacity-90 backdrop-blur-sm border-b border-grey-800 ">
+         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-primary ">Aayan Shaikh</h1>
+                </div>
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="#home" class="text-primary hover:text-purple-900 font-semibold text-xl transition-colors">Home</a>
+                    <a href="#menu" class="text-primary hover:text-purple-900 font-semibold text-xl transition-colors">Menu</a>
+                    <a href="#about" class="text-primary hover:text-purple-900 font-semibold text-xl transition-colors">About</a>
+                    <a href="#contact" class="text-primary hover:text-purple-900 font-semibold text-xl transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+     </nav>
+     <!--Hero section -->
+     <section id="home" class="relative bg-gradient-to-br from-purple-900 via-blue-900 to-pink-900 text-white min-h-screen flex items-center">
+        <div class="relative max-w-7xl mx-auto  sm:px-6 lg:px-8 py-20">
+            <div class="grid md:grid-cols-2 gap-12 items-center"> 
+                <div class="space-y-8">
+                    <h1 class="text-2xl font-semibold"> HI THERE.. </h1>
+                    <h1 class="text-5xl font-bold  ">I Am <span class="gradient-text"> Web Developer</span></h1>
+                    <p class="text-xl text-gray-300 leading-relaxed"></p>
+                </div>
+
+                <div class="relative  ml-20 px-10 py-10">
+                    <div class="bg-gradient-to-br from-accent to-orange-600 rounded-full p-2 ">
+                        <div class="bg-white rounded-full p-6 text-center text-primary">
+                            <img src="owl.jpeg.jpg" alt="Image" class="rounded-full">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+     </section>
+
+     <!-- LANGVAGE -->
+
+    
+</body>
+</html>

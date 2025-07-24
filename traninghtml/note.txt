@@ -1,0 +1,14 @@
+
+
+first type to link the external file
+<head>
+<link type="text/css" href="mystyle.css" media="all"/>
+</head>
+
+
+first type to link the external file
+<head>
+@import"mystyle.css";
+
+
+

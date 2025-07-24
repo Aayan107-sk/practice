@@ -1,0 +1,146 @@
+div {
+    background-color: green;
+}
+
+
+div.first {
+ opacity: 0.1;
+ width: 30%;
+ text-align: center;
+ margin: auto;
+ 
+    
+}
+div.second {
+ opacity: 0.7;
+ width: 40%;
+ text-align: center;
+  margin: auto;
+    
+}
+div.thred {
+ opacity: 1;
+ width: 50%;
+ text-align: center;
+  margin: auto;
+    
+}
+
+
+h1{
+    text-align: center;
+    
+}
+
+.p_div{
+    margin: auto;
+    width: 60%;
+
+}
+.hello::first-line{
+    color: blue;
+    width: 60%;
+    text-align: center;
+    font-variant: small-caps;
+
+}
+body{
+    background-image: url(img/owl.jpeg.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+     background-attachment: fixed;/*scroll */
+}
+
+
+/* boders  style*/
+p.dotted{
+    border-style: dotted;
+
+} 
+p.dashed{
+    border-style: dashed;
+
+} 
+p.solid{
+    border-style: solid;
+
+} 
+p.double{
+    border-style: double;
+
+} 
+p.groove{
+    border-style: groove;
+
+} 
+p.ridge{
+    border-style: ridge;
+
+} 
+p.inset{
+    border-style: inset;
+
+} 
+p.outset{
+    border-style: outset;
+
+} 
+p.none{
+    border-style: none;
+
+} 
+p.hidden{
+    border-style: hidden;
+
+} 
+p.min{
+    border-style: dotted dashed solid double;
+
+} 
+
+/* box model */
+
+.bom_model{
+    background-color: lightgreen;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+
+}
+.r_25{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+  
+    
+}
+.r_50{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    border: 5px solid rgb(255, 0, 0);
+    padding: 20px;
+    width: 200px;
+    background-color: aqua;
+    
+}
+.r_70{
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    background: url(img/owl.jpeg.jpg);
+    background-position:  center;
+    background-repeat:no-repeat;
+    border: 5px solid crimson; 
+    border-radius: 25px;
+    padding: 20px;
+    padding-left:20px;
+    width: 200px;
+    
+    
+}
